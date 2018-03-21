@@ -41,4 +41,6 @@ puts
 int_array = [100, 5, 1, 3, 50]
 print int_array.sort
 print int_array.reverse
-puts
+puts int_array.size
+puts int_array.count
+puts int_array.length
