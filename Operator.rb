@@ -30,6 +30,13 @@ else
     puts "you're #{gender}"
 end
 ###
+numbers = [1, 2, 3]
+numbers << 4
+numbers << 5
+if numbers.include? 5 then puts numbers end
+print numbers
+puts
+###
 unless 3 < 2
   puts "아기사자"
 end
