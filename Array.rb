@@ -34,7 +34,10 @@ numbers << 5
 print numbers
 puts
 ###
-array = [1, 1, 2, 2, 3, 3, true, false, nil]
+array = [
+    1, 1, 2, 2, 3,
+    3, true, false, nil
+]
 print array.compact
 print array.uniq
 puts
