@@ -25,4 +25,8 @@ loop do
   
   list << person
   puts list
+  
+  # list.each do |p|
+  #   puts p[:phone_number]
+  # end
 end
